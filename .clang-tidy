@@ -1,0 +1,8 @@
+---
+Checks:          'clang-diagnostic-*,clang-analyzer-*,clang-diagnostic-*,clang-analyzer-*,readability-*,modernize-*,bugprone-*,misc-*,portability-*,performance-*,google-runtime-int,llvm-header-guard,-clang-analyzer-security.insecureAPI.rand,-readability-magic-numbers,-readability-else-after-return,-readability-isolate-declaration,-clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling,-portability-simd-intrinsics'
+FormatStyle: file
+CheckOptions:
+  - key: readability-function-cognitive-complexity.Threshold
+    value: 31
+...
+
